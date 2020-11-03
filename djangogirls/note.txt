@@ -1,0 +1,10 @@
+<장고 시작>
+django-admin startproject mysite .
++ setting.py 설정
+python manage.py runserver
+
+<모델 업데이트>
+## 데이터베이스에 지금 반영할 수 있도록 migration file을 준비
+python manage.py makemigrations (app)
+##DB에 모델 저장
+python manage.py migrate blog
